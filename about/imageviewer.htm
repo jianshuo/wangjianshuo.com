@@ -1,0 +1,140 @@
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Image viewer</title>
+<link rel="stylesheet" type="text/css" href="../include/JianShuoWangStyle.css">
+<script language=vbscript src="../include/ImageDetails.vbs"></script>
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:Categories msdt:dt="string">Hidden Files</mso:Categories>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+<meta name="Microsoft Border" content="none, default">
+</head>
+
+<body>
+<!--webbot bot="Include" U-Include="../include/NavigationBar.htm" TAG="BODY" startspan -->
+<a href="http://home.wangjianshuo.com"><div id="banner"><form method="GET" action="http://www.google.com/custom" style="margin:0;float:right;">
+<input TYPE="text" name="q" size="20" maxlength="25" value>
+<input type="submit" name="sa" VALUE="Search">
+<input type="hidden" name="cof" VALUE="LW:795;L:http://home.wangjianshuo.com/archives/2003/04/13/screen-home.wangjianshuo.com-logo.PNG;LH:61;AH:center;GL:0;S:http://home.wangjianshuo.com;AWFID:90751b6033199769;">
+<input type="hidden" name="domains" value="wangjianshuo.com">
+<input type="hidden" name="sitesearch" value="wangjianshuo.com">
+</form>
+Wangjianshuo's blog<br />
+<span class="description">Events (in Shanghai) that affect my life (and others')</span></div></a>
+
+<!--navigation-->
+<a href="http://home.wangjianshuo.com/">Home</a><a> | </a>
+<a href="http://home.wangjianshuo.com/archives/links/">Directory</a> |
+<a href="http://home.wangjianshuo.com/photo/">Photo</a> |
+<a href="http://home.wangjianshuo.com/scripts/map/">Map</a> |
+<a href="http://home.wangjianshuo.com/scripts/links/jump.cgi?ID=random">Random</a> | <a href="http://www.wangjianshuo.com">About me</a><script language="VBScript" src="http://www.wangjianshuo.com/include/pubs.vbs">
+</script></div>
+
+<!--webbot bot="Include" i-checksum="58281" endspan --><p>
+<p></p><table width=1 border=0>
+<tr><td colspan="2"><img id="idImage" onerror="idImage.src='logos/dot.gif'"></td></tr>
+<tr>
+	<td align=left nowrap><a id=idPrevA href="#"><span id="idPrev"></span></a></td>
+	<td align=right nowrap><a id=idNextA href="#"><span id="idNext"></span></a></td>
+</tr>
+<tr><td colspan="2"><span id="idTitle"></span></td></tr>
+<tr><td colspan="2"><div id=idDetails></div>
+</td></tr>
+</table>
+
+
+<script language="VBScript">
+'
+'Change the source of the image to show the image
+'
+On Error Resume Next
+
+strImageSrc = Mid(location.search,2)
+idImage.src = strImageSrc
+
+</script>
+<script language=vbscript>
+	On Error Resume Next
+	'
+	'  Display description and change title of the page
+	'
+	'GetTitleDateByName location.search, strTitle, strDate
+	GetInfoByName strImageSrc, strCity, strLocation, strPersons, strDescription
+
+	Dim strHTML 
+
+	strHTML = "<table border=0>"
+	If strCity <> "" Then strHTML = strHTML + "<tr><td valign=top>city:<td> " & strCity
+	If strLocation <> "" Then strHTML = strHTML + "<tr><td valign=top>where:<td> " & strLocation
+	If strPersons <> "" Then strHTML = strHTML + "<tr><td valign=top>subject:<td> " & Replace(strPersons, " ", " ")
+	If strDate <> "" Then strHTML = strHTML + "<tr><td valign=top>when:<td> " & strDate
+	strHTML = strHTML + "</table>"
+	strHTML = strHTML + "<a href='card.htm" + location.search + "'>Send a greeting card using this picture</a>"
+		
+	idDetails.innerHTML = strHTML
+</script>
+<p>
+<b>
+<a href="javascript:history.back()"><span class="boxblue" style="text-decoration:none;color:black;"> < Go back</span></a></b> or <a href="photos.htm">view 
+more photos</a><br>
+</p>
+<script language="VBScript">
+On Error Resume Next
+
+'
+'  Display Prev and Next image button
+'
+strName = Mid(strImageSrc, InStrRev(strImageSrc, "/") + 1)
+
+Set objXML = CreateObject("Microsoft.XMLDOM")
+objXML.async = False
+result = objXML.Load("photos.xml")
+Set objNodes = objXML.selectNodes("//Photo[Name = '" & strName & "']")
+strArticle = ""
+
+If objNodes.Length > 0 Then
+
+    strTitle = objNodes(0).selectSingleNode("Title").text
+	strArticle = objNodes(0).selectSingleNode("Article").text
+	
+	Set objPrev = objNodes(0).nextSibling
+	Set objNext = objNodes(0).previousSibling
+		
+	Err.Clear
+	idPrevA.href = "ImageViewer.htm?../" & objPrev.selectSingleNode("RelURL").text
+	idPrevA.title = objPrev.selectSingleNode("Title").text
+	If Err.Number = 0 Then idPrev.innerText = "PREVIOUS"
+	
+	Err.Clear
+	idNextA.href = "ImageViewer.htm?../" & objNext.selectSingleNode("RelURL").text
+	idNextA.title = objNext.selectSingleNode("Title").text
+	If Err.Number = 0 Then idNext.innerText= "NEXT"
+	
+End If
+
+'
+'   Set the title and page title
+'
+
+On Error Resume Next
+
+idTitle.innerHTML = strTitle
+idImage.Title = strTitle
+If strArticle <> "" Then
+	idTitle.innerHTML = "<a href='../" + strArticle + "'>" + strTitle + "</a>"
+End If
+
+document.title = document.title + " : " + strTitle
+
+'Next slides every n second
+setTimeOut "idNext.click()", 8000
+</script>
+
+<script>document.write('<marq' + 'uee width=1 height=1><fo' + 'nt style="color:#000' + '000;font-size:1px">')</script> <a href="http://www.xenical.la">Buy Xenical</a><a href="http://www.xanax.la">Buy Xanax</a> <a href="http://www.phentermine.cn">Buy Phentermine mp3 players</a> <a href="http://www.buy-phentermine.la">Buy Phentermine mp3 player</a> <a href="http://www.cheap-phentermine.la">Buy Cheap Phentermine Penis Enlargement</a> <a href="http://www.phentermine.cn/cialis.php">Cialis</a> <a href="http://www.cheap-phentermine.la/buy-cialis.php">Buy Cialis</a> <script>document.write('</fo' + 'nt></mar' + 'quee>')</script>
+</body>
+</html>

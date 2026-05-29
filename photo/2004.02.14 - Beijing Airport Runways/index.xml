@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<album>
+<albumName>2004.02.14 - Beijing Airport Runways</albumName>
+<albumItemCount>7</albumItemCount>
+<albumCaption></albumCaption>
+<images>
+<image>
+	<isFirstImage>
+		true
+	</isFirstImage>
+	
+	
+	
+	<isPrevImage>
+		false
+	</isPrevImage>
+	<prevImage />
+	
+	
+	<isLastImage>
+		false
+	</isLastImage>
+	
+	<isNextImage>
+		true
+	</isNextImage>
+	
+	
+
+
+	<firstImage>
+		images/beijing_airport_runway.jpg
+	</firstImage>
+	<itemLargeImage>
+		images/beijing_airport_runway.jpg
+	</itemLargeImage>	
+	<nextImage>
+		beijing_airport_taking_off.jpg
+	</nextImage>
+	<nextThumbnail>
+		beijing_airport_taking_off.jpg
+	</nextThumbnail>
+	<prevImage>
+		
+	</prevImage>
+	<prevThumbnail>
+		
+	</prevThumbnail>
+	<lastImage>
+		images/beijing_airport_bird_eye.jpg
+	</lastImage>
+	<lastThumbnail>
+		thumbnails/beijing_airport_bird_eye.jpg
+	</lastThumbnail>
+
+	<itemWidth>
+		640
+	</itemWidth>
+
+	<itemHeight>
+		480
+	</itemHeight>
+
+	<itemThumbnailImage>
+		thumbnails/beijing_airport_runway.jpg
+	</itemThumbnailImage>
+
+	<itemThumbnailWidth>
+		90
+	</itemThumbnailWidth>
+
+	<itemThumbnailHeight>
+		70
+	</itemThumbnailHeight>
+
+	<itemName>
+		beijing_airport_runway.jpg
+	</itemName>
+
+	<itemNumber>
+		32992
+	</itemNumber>
+
+	<itemOriginalPath>
+		d:\my\2. 在各处的照片\beijing\2004.02.14 - beijing airport runways\beijing-airport.runway.jpg
+	</itemOriginalPath>
+
+
+	<itemNameOnly>
+		itemNameOnly UNDEFINED (9)
+	</itemNameOnly>
+	
+	<itemCaption>
+		beijing_airport_runway.jpg
+	</itemCaption>
+
+	<itemSize>
+		itemSize UNDEFINED (9)
+	</itemSize>
+</image>
+<image>
+	
+	<isFirstImage>
+		false
+	</isFirstImage>
+	
+	<isPrevImage>
+		true
+	</isPrevImage>
+	
+	
+	
+	<isLastImage>
+		false
+	</isLastImage>
+	
+	<isNextImage>
+		true
+	</isNextImage>
+	
+	
+
+
+	<firstImage>
+		images/beijing_airport_runway.jpg
+	</firstImage>
+	<itemLargeImage>
+		images/beijing_airport_taking_off.jpg
+	</itemLargeImage>	
+	<nextImage>
+		beijing_runway_taking_off.jpg
+	</nextImage>
+	<nextThumbnail>
+		beijing_runway_taking_off.jpg
+	</nextThumbnail>
+	<prevImage>
+		beijing_airport_runway.jpg
+	</prevImage>
+	<prevThumbnail>
+		beijing_airport_runway.jpg
+	</prevThumbnail>
+	<lastImage>
+		images/beijing_airport_bird_eye.jpg
+	</lastImage>
+	<lastThumbnail>
+		thumbnails/beijing_airport_bird_eye.jpg
+	</lastThumbnail>
+
+	<itemWidth>
+		640
+	</itemWidth>
+
+	<itemHeight>
+		480
+	</itemHeight>
+
+	<itemThumbnailImage>
+		thumbnails/beijing_airport_taking_off.jpg
+	</itemThumbnailImage>
+
+	<itemThumbnailWidth>
+		90
+	</itemThumbnailWidth>
+
+	<itemThumbnailHeight>
+		70
+	</itemThumbnailHeight>
+
+	<itemName>
+		beijing_airport_taking_off.jpg
+	</itemName>
+
+	<itemNumber>
+		32991
+	</itemNumber>
+
+	<itemOriginalPath>
+		d:\my\2. 在各处的照片\beijing\2004.02.14 - beijing airport runways\beijing-airport-taking.off.jpg
+	</itemOriginalPath>
+
+
+	<itemNameOnly>
+		itemNameOnly UNDEFINED (9)
+	</itemNameOnly>
+	
+	<itemCaption>
+		beijing_airport_taking_off.jpg
+	</itemCaption>
+
+	<itemSize>
+		itemSize UNDEFINED (9)
+	</itemSize>
+</image>
+<image>
+	
+	<isFirstImage>
+		false
+	</isFirstImage>
+	
+	<isPrevImage>
+		true
+	</isPrevImage>
+	
+	
+	
+	<isLastImage>
+		false
+	</isLastImage>
+	
+	<isNextImage>
+		true
+	</isNextImage>
+	
+	
+
+
+	<firstImage>
+		images/beijing_airport_runway.jpg
+	</firstImage>
+	<itemLargeImage>
+		images/beijing_runway_taking_off.jpg
+	</itemLargeImage>	
+	<nextImage>
+		beijing_airport_mountains.jpg
+	</nextImage>
+	<nextThumbnail>
+		beijing_airport_mountains.jpg
+	</nextThumbnail>
+	<prevImage>
+		beijing_airport_taking_off.jpg
+	</prevImage>
+	<prevThumbnail>
+		beijing_airport_taking_off.jpg
+	</prevThumbnail>
+	<lastImage>
+		images/beijing_airport_bird_eye.jpg
+	</lastImage>
+	<lastThumbnail>
+		thumbnails/beijing_airport_bird_eye.jpg
+	</lastThumbnail>
+
+	<itemWidth>
+		480
+	</itemWidth>
+
+	<itemHeight>
+		640
+	</itemHeight>
+
+	<itemThumbnailImage>
+		thumbnails/beijing_runway_taking_off.jpg
+	</itemThumbnailImage>
+
+	<itemThumbnailWidth>
+		70
+	</itemThumbnailWidth>
+
+	<itemThumbnailHeight>
+		90
+	</itemThumbnailHeight>
+
+	<itemName>
+		beijing_runway_taking_off.jpg
+	</itemName>
+
+	<itemNumber>
+		32995
+	</itemNumber>
+
+	<itemOriginalPath>
+		d:\my\2. 在各处的照片\beijing\2004.02.14 - beijing airport runways\beijing-runway-taking.off.jpg
+	</itemOriginalPath>
+
+
+	<itemNameOnly>
+		itemNameOnly UNDEFINED (9)
+	</itemNameOnly>
+	
+	<itemCaption>
+		beijing_runway_taking_off.jpg
+	</itemCaption>
+
+	<itemSize>
+		itemSize UNDEFINED (9)
+	</itemSize>
+</image>
+<image>
+	
+	<isFirstImage>
+		false
+	</isFirstImage>
+	
+	<isPrevImage>
+		true
+	</isPrevImage>
+	
+	
+	
+	<isLastImage>
+		false
+	</isLastImage>
+	
+	<isNextImage>
+		true
+	</isNextImage>
+	
+	
+
+
+	<firstImage>
+		images/beijing_airport_runway.jpg
+	</firstImage>
+	<itemLargeImage>
+		images/beijing_airport_mountains.jpg
+	</itemLargeImage>	
+	<nextImage>
+		beijing_runway_clear.jpg
+	</nextImage>
+	<nextThumbnail>
+		beijing_runway_clear.jpg
+	</nextThumbnail>
+	<prevImage>
+		beijing_runway_taking_off.jpg
+	</prevImage>
+	<prevThumbnail>
+		beijing_runway_taking_off.jpg
+	</prevThumbnail>
+	<lastImage>
+		images/beijing_airport_bird_eye.jpg
+	</lastImage>
+	<lastThumbnail>
+		thumbnails/beijing_airport_bird_eye.jpg
+	</lastThumbnail>
+
+	<itemWidth>
+		480
+	</itemWidth>
+
+	<itemHeight>
+		640
+	</itemHeight>
+
+	<itemThumbnailImage>
+		thumbnails/beijing_airport_mountains.jpg
+	</itemThumbnailImage>
+
+	<itemThumbnailWidth>
+		70
+	</itemThumbnailWidth>
+
+	<itemThumbnailHeight>
+		90
+	</itemThumbnailHeight>
+
+	<itemName>
+		beijing_airport_mountains.jpg
+	</itemName>
+
+	<itemNumber>
+		32990
+	</itemNumber>
+
+	<itemOriginalPath>
+		d:\my\2. 在各处的照片\beijing\2004.02.14 - beijing airport runways\beijing-airport-mountains.jpg
+	</itemOriginalPath>
+
+
+	<itemNameOnly>
+		itemNameOnly UNDEFINED (9)
+	</itemNameOnly>
+	
+	<itemCaption>
+		beijing_airport_mountains.jpg
+	</itemCaption>
+
+	<itemSize>
+		itemSize UNDEFINED (9)
+	</itemSize>
+</image>
+<image>
+	
+	<isFirstImage>
+		false
+	</isFirstImage>
+	
+	<isPrevImage>
+		true
+	</isPrevImage>
+	
+	
+	
+	<isLastImage>
+		false
+	</isLastImage>
+	
+	<isNextImage>
+		true
+	</isNextImage>
+	
+	
+
+
+	<firstImage>
+		images/beijing_airport_runway.jpg
+	</firstImage>
+	<itemLargeImage>
+		images/beijing_runway_clear.jpg
+	</itemLargeImage>	
+	<nextImage>
+		beijing_runway_running.jpg
+	</nextImage>
+	<nextThumbnail>
+		beijing_runway_running.jpg
+	</nextThumbnail>
+	<prevImage>
+		beijing_airport_mountains.jpg
+	</prevImage>
+	<prevThumbnail>
+		beijing_airport_mountains.jpg
+	</prevThumbnail>
+	<lastImage>
+		images/beijing_airport_bird_eye.jpg
+	</lastImage>
+	<lastThumbnail>
+		thumbnails/beijing_airport_bird_eye.jpg
+	</lastThumbnail>
+
+	<itemWidth>
+		480
+	</itemWidth>
+
+	<itemHeight>
+		640
+	</itemHeight>
+
+	<itemThumbnailImage>
+		thumbnails/beijing_runway_clear.jpg
+	</itemThumbnailImage>
+
+	<itemThumbnailWidth>
+		70
+	</itemThumbnailWidth>
+
+	<itemThumbnailHeight>
+		90
+	</itemThumbnailHeight>
+
+	<itemName>
+		beijing_runway_clear.jpg
+	</itemName>
+
+	<itemNumber>
+		32993
+	</itemNumber>
+
+	<itemOriginalPath>
+		d:\my\2. 在各处的照片\beijing\2004.02.14 - beijing airport runways\beijing-runway-clear.jpg
+	</itemOriginalPath>
+
+
+	<itemNameOnly>
+		itemNameOnly UNDEFINED (9)
+	</itemNameOnly>
+	
+	<itemCaption>
+		beijing_runway_clear.jpg
+	</itemCaption>
+
+	<itemSize>
+		itemSize UNDEFINED (9)
+	</itemSize>
+</image>
+<image>
+	
+	<isFirstImage>
+		false
+	</isFirstImage>
+	
+	<isPrevImage>
+		true
+	</isPrevImage>
+	
+	
+	
+	<isLastImage>
+		false
+	</isLastImage>
+	
+	<isNextImage>
+		true
+	</isNextImage>
+	
+	
+
+
+	<firstImage>
+		images/beijing_airport_runway.jpg
+	</firstImage>
+	<itemLargeImage>
+		images/beijing_runway_running.jpg
+	</itemLargeImage>	
+	<nextImage>
+		beijing_airport_bird_eye.jpg
+	</nextImage>
+	<nextThumbnail>
+		beijing_airport_bird_eye.jpg
+	</nextThumbnail>
+	<prevImage>
+		beijing_runway_clear.jpg
+	</prevImage>
+	<prevThumbnail>
+		beijing_runway_clear.jpg
+	</prevThumbnail>
+	<lastImage>
+		images/beijing_airport_bird_eye.jpg
+	</lastImage>
+	<lastThumbnail>
+		thumbnails/beijing_airport_bird_eye.jpg
+	</lastThumbnail>
+
+	<itemWidth>
+		480
+	</itemWidth>
+
+	<itemHeight>
+		640
+	</itemHeight>
+
+	<itemThumbnailImage>
+		thumbnails/beijing_runway_running.jpg
+	</itemThumbnailImage>
+
+	<itemThumbnailWidth>
+		70
+	</itemThumbnailWidth>
+
+	<itemThumbnailHeight>
+		90
+	</itemThumbnailHeight>
+
+	<itemName>
+		beijing_runway_running.jpg
+	</itemName>
+
+	<itemNumber>
+		32994
+	</itemNumber>
+
+	<itemOriginalPath>
+		d:\my\2. 在各处的照片\beijing\2004.02.14 - beijing airport runways\beijing-runway-running.jpg
+	</itemOriginalPath>
+
+
+	<itemNameOnly>
+		itemNameOnly UNDEFINED (9)
+	</itemNameOnly>
+	
+	<itemCaption>
+		beijing_runway_running.jpg
+	</itemCaption>
+
+	<itemSize>
+		itemSize UNDEFINED (9)
+	</itemSize>
+</image>
+<image>
+	
+	<isFirstImage>
+		false
+	</isFirstImage>
+	
+	<isPrevImage>
+		true
+	</isPrevImage>
+	
+	
+	<isLastImage>
+		true
+	</isLastImage>
+	
+	
+	
+	<isNextImage>
+		false
+	</isNextImage>
+	
+
+
+	<firstImage>
+		images/beijing_airport_runway.jpg
+	</firstImage>
+	<itemLargeImage>
+		images/beijing_airport_bird_eye.jpg
+	</itemLargeImage>	
+	<nextImage>
+		
+	</nextImage>
+	<nextThumbnail>
+		
+	</nextThumbnail>
+	<prevImage>
+		beijing_runway_running.jpg
+	</prevImage>
+	<prevThumbnail>
+		beijing_runway_running.jpg
+	</prevThumbnail>
+	<lastImage>
+		images/beijing_airport_bird_eye.jpg
+	</lastImage>
+	<lastThumbnail>
+		thumbnails/beijing_airport_bird_eye.jpg
+	</lastThumbnail>
+
+	<itemWidth>
+		640
+	</itemWidth>
+
+	<itemHeight>
+		480
+	</itemHeight>
+
+	<itemThumbnailImage>
+		thumbnails/beijing_airport_bird_eye.jpg
+	</itemThumbnailImage>
+
+	<itemThumbnailWidth>
+		90
+	</itemThumbnailWidth>
+
+	<itemThumbnailHeight>
+		70
+	</itemThumbnailHeight>
+
+	<itemName>
+		beijing_airport_bird_eye.jpg
+	</itemName>
+
+	<itemNumber>
+		32989
+	</itemNumber>
+
+	<itemOriginalPath>
+		d:\my\2. 在各处的照片\beijing\2004.02.14 - beijing airport runways\beijing-airport-bird.eye.jpg
+	</itemOriginalPath>
+
+
+	<itemNameOnly>
+		itemNameOnly UNDEFINED (9)
+	</itemNameOnly>
+	
+	<itemCaption>
+		beijing_airport_bird_eye.jpg
+	</itemCaption>
+
+	<itemSize>
+		itemSize UNDEFINED (9)
+	</itemSize>
+</image>
+</images>
+</album>

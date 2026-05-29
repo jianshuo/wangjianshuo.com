@@ -1,0 +1,152 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+
+<link rel="stylesheet" type="text/css" href="http://home.wangjianshuo.com/jianshuowangstyle.css">
+<style>
+
+.Headings       { border-bottom:4px solid #336699; 
+
+                       text-transform:uppercase;
+
+                       font-weight:800;}
+
+.SpecialReport {padding:1; background-color: #F0F8FF;float:right;
+ border: 2px solid #000099; padding: 7; width:10%;align:right; 
+ }
+.LeftBar     { border-left: 5px solid #CC0000; padding-left: 10;margin-left:20;; padding-right: 4; 
+               padding-top: 1; padding-bottom: 1; background-color:#EAEFF4 }
+.Headlines      { border:1px solid #336699; 
+
+                       padding:5; 
+
+                       background-color: #EAEFF4 }
+
+.RedHeadings  { border-top: 4px solid #CC0000; padding:2; text-transform:uppercase;
+
+                       background-color: #003366;
+
+                       font-color: #FFFFFF;
+
+                       color: #FFFFFF;
+
+                       font-weight: 900; }
+
+.HeadingCaption {text-transform:uppercase;font-size:12pt;font-weight:900; }
+
+</style>
+</head>
+
+<body>
+<!--webbot bot="Include" U-Include="../../include/NavigationBar.htm" TAG="BODY" startspan -->
+<a href="http://home.wangjianshuo.com"><div id="banner"><form method="GET" action="http://www.google.com/custom" style="margin:0;float:right;">
+<input TYPE="text" name="q" size="20" maxlength="25" value>
+<input type="submit" name="sa" VALUE="Search">
+<input type="hidden" name="cof" VALUE="LW:795;L:http://home.wangjianshuo.com/archives/2003/04/13/screen-home.wangjianshuo.com-logo.PNG;LH:61;AH:center;GL:0;S:http://home.wangjianshuo.com;AWFID:90751b6033199769;">
+<input type="hidden" name="domains" value="wangjianshuo.com">
+<input type="hidden" name="sitesearch" value="wangjianshuo.com">
+</form>
+Wangjianshuo's blog<br />
+<span class="description">Events (in Shanghai) that affect my life (and others')</span></div></a>
+
+<!--navigation-->
+<a href="http://home.wangjianshuo.com/">Home</a><a> | </a>
+<a href="http://home.wangjianshuo.com/archives/links/">Directory</a> |
+<a href="http://home.wangjianshuo.com/photo/">Photo</a> |
+<a href="http://home.wangjianshuo.com/scripts/map/">Map</a> |
+<a href="http://home.wangjianshuo.com/scripts/links/jump.cgi?ID=random">Random</a> | <a href="http://www.wangjianshuo.com">About me</a><script language="VBScript" src="http://www.wangjianshuo.com/include/pubs.vbs">
+</script></div>
+
+<!--webbot bot="Include" i-checksum="58281" endspan -->
+<h2>PVG Schedule Spec</h2>
+<h3>Vision:</h3>
+<p>The accurate and usable source of flight information to and from Shanghai.</p>
+<h3>Database format</h3>
+<p>The proprietary log is pipe-delimited and new line separated. Each record 
+contains null leading and trailing fields. The fields are:<br>
+<br>
+0 NULL<br>
+1 flight #<br>
+2 source airport code (three letters)<br>
+3 destination airport code (three letters)<br>
+4 scheduled departure time<br>
+5 scheduled arrival time<br>
+6 actual departure time<br>
+7 actual arrival time<br>
+8 <span lang="en-us">ticket island</span><br>
+9<span lang="en-us"> memo</span><br>
+<span lang="en-us">10 </span>NULL/newline</p>
+<p>Here are the sample of the database</p>
+<p>|CZ9516|SHA|XNN|17:45|21:05|||<span lang="en-us">011</span>|<span lang="en-us">|</span><br>
+|UA858|SHA|SFO|13:00|23:25|13:18|||<span lang="en-us">|</span><br>
+|LH729|PVG|FRA|13:10|00:30|13:36|00:28|<span lang="en-us">021</span>|<span lang="en-us">|</span></p>
+<p>The data is stored in the files. One file for one day. The file name should 
+be 20030212.txt</p>
+<h3>Webpage</h3>
+<p class="HeadingCaption">CZ8177,CGO,PVG,23:00,00:35,<font color="#FF0000">22:50</font>, 
+,</p>
+<p>Flight No: CZ8177<br>
+Airlines: China Southern Airlines (CZ)<br>
+Departure Airport: Zhengzhou (CGO)<br>
+Arrival Airport: Shanghai Pudong Airport (PVG)<br>
+Departure Time: 23:00<br>
+Arrival Time: 00:35<br>
+Actual Departure Time: 22:50<br>
+Actual Arrival Time: <br>
+Description:<br>
+Last Updated: 2003-04-15 20:10</p>
+<p class="HeadingCaption">CZ8177,CGO,PVG,23:00,00:35,<font color="#FF0000">22:50</font>, 
+,</p>
+<p>Flight No: CZ8177<br>
+Airlines: China Southern Airlines (CZ)<br>
+Departure Airport: Zhengzhou (CGO)<br>
+Arrival Airport: Shanghai Pudong Airport (PVG)<br>
+Departure Time: 23:00<br>
+Arrival Time: 00:35<br>
+Actual Departure Time: 22:50<br>
+Actual Arrival Time: <br>
+Description:<br>
+Last Updated: 2003-04-15 20:10</p>
+<p class="HeadingCaption">CZ8177,CGO,PVG,23:00,00:35,<font color="#FF0000">22:50</font>, 
+,</p>
+<p>Flight No: CZ8177<br>
+Airlines: China Southern Airlines (CZ)<br>
+Departure Airport: Zhengzhou (CGO)<br>
+Arrival Airport: Shanghai Pudong Airport (PVG)<br>
+Departure Time: 23:00<br>
+Arrival Time: 00:35<br>
+Actual Departure Time: 22:50<br>
+Actual Arrival Time: <br>
+Description:<br>
+Last Updated: 2003-04-15 20:10</p>
+<p class="HeadingCaption">CZ8177,CGO,PVG,23:00,00:35,<font color="#FF0000">22:50</font>, 
+,</p>
+<p>Flight No: CZ8177<br>
+Airlines: China Southern Airlines (CZ)<br>
+Departure Airport: Zhengzhou (CGO)<br>
+Arrival Airport: Shanghai Pudong Airport (PVG)<br>
+Departure Time: 23:00<br>
+Arrival Time: 00:35<br>
+Actual Departure Time: 22:50<br>
+Actual Arrival Time: <br>
+Description:<br>
+Last Updated: 2003-04-15 20:10</p>
+<p class="HeadingCaption">CZ8177,CGO,PVG,23:00,00:35,<font color="#FF0000">22:50</font>, 
+,</p>
+<p>Flight No: CZ8177<br>
+Airlines: China Southern Airlines (CZ)<br>
+Departure Airport: Zhengzhou (CGO)<br>
+Arrival Airport: Shanghai Pudong Airport (PVG)<br>
+Departure Time: 23:00<br>
+Arrival Time: 00:35<br>
+Actual Departure Time: 22:50<br>
+Actual Arrival Time: <br>
+Description:<br>
+Last Updated: 2003-04-15 20:10</p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<MySchedule>
+	<Event Title="Web Interactive Conference">
+		<Date>2000/11/8</Date>
+		<Location>Gui Du Hotel</Location>
+		<City>Shanghai</City>
+		<Session Title="Next Generation Internet">
+			<StartTime>9:40 am</StartTime>
+			<EndTime>10:30 am</EndTime>
+		</Session>
+		<Session Title="How to Improve Proformance of Web Site">
+			<StartTime>1:55 pm</StartTime>
+			<EndTime>2:40 pm</EndTime>
+		</Session>
+	</Event>
+	<Event Title="China Logistic Conference">
+		<Date>2000/11/12</Date>
+		<Location>Liang Ma He Hotel</Location>
+		<City>Beijing</City>
+		<Session Title="eCommerce and Logistic">
+			<StartTime>2:00 pm</StartTime>
+			<EndTime>3:50 pm</EndTime>
+		</Session>
+	</Event>
+	<Event Title="China CIO/CTO Summit">
+		<Date>2000/9/28</Date>
+		<Location>Yi Shen Yuan Hotel</Location>
+		<City>Beijing</City>
+		<Session Title="BizTalk for CIOs">
+			<StartTime>10:00 am</StartTime>
+			<EndTime>11:00 am</EndTime>
+		</Session>
+	</Event>
+	<Event Title="Web Interactive Conference">
+		<Date>2000/10/10</Date>
+		<Location>White Swane Hotel</Location>
+		<City>Guangzhou</City>
+		<Session Title="Availability, Scalebility and Managability">
+			<StartTime>10:30 am</StartTime>
+			<EndTime>11:20 am</EndTime>
+		</Session>
+		<Session Title="B2B and Bussiness Process Automation">
+			<StartTime>11:30 am</StartTime>
+			<EndTime>12:20 am</EndTime>
+		</Session>
+	</Event>
+	<Event Title="BizTalk training for Microsoft(China) Guangzhou Office">
+		<Date>2000/10/13</Date>
+		<Location>66th Floor, Zhong Xin Building</Location>
+		<City>Guangzhou</City>
+		<Session Title="SOAP/.NET/BizTalk">
+			<StartTime>9:30 am</StartTime>
+			<EndTime>12:00 am</EndTime>
+		</Session>
+	</Event>
+	<Event Title="Microsoft DevDay 2000">
+		<Date>2000/11/28</Date>
+		<Location>Gui Du Hotel</Location>
+		<City>Shanghai</City>
+		<Session Title="Developing End-to-End Business-to-Business Application with BizTalk 2000 Part I">
+			<StartTime>1:00 pm</StartTime>
+			<EndTime>2:00 pm</EndTime>
+		</Session>
+		<Session Title="Developing End-to-End Business-to-Business Application with BizTalk 2000 Part II">
+			<StartTime>2:10 pm</StartTime>
+			<EndTime>3:10 pm</EndTime>
+		</Session>
+	</Event>
+	<Event Title="Microsoft TechEd 2000 (Beijing)">
+		<Date>2000/8/31</Date>
+		<Location>China Grant Hotel</Location>
+		<City>Beijing</City>
+		<Session Title="BizTalk Overview">
+			<StartTime>10:00 am</StartTime>
+			<EndTime>10:50 am</EndTime>
+		</Session>
+	</Event>
+	<Event Title="Microsoft TechEd 2000 (Shanghai)">
+		<Date>2000/9/7</Date>
+		<Location>Guidu Hotel</Location>
+		<City>Shanghai</City>
+		<Session Title="BizTalk Overview">
+			<StartTime>3:00 pm</StartTime>
+			<EndTime>3:50 pm</EndTime>
+		</Session>
+	</Event>
+	<Event Title="Microsoft TechEd 2000 (Guangzhou)">
+		<Date>2000/9/4</Date>
+		<Location>White Swane Hotel</Location>
+		<City>Guangzhou</City>
+		<Session Title="BizTalk Overview">
+			<StartTime>3:30 pm</StartTime>
+			<EndTime>4:20 pm</EndTime>
+		</Session>
+	</Event>
+	<Event Title="Microsoft .NET Launch">
+		<Date>2000/9/19</Date>
+		<Location>China Grant Hotel</Location>
+		<City>Beijing</City>
+		<Session Title="BizTalk -- Beyond Enterprise Application">
+			<StartTime>3:30 pm</StartTime>
+			<EndTime>4:15 pm</EndTime>
+		</Session>
+	</Event>
+	<Event Title="Microsoft(China) Dalian Technical Training">
+		<Date>2000/6/28</Date>
+		<Location>Shangrila Hotel</Location>
+		<City>Dalian</City>
+		<Session Title="BizTalk Overview">
+			<StartTime>1:00 pm</StartTime>
+			<EndTime>4:30 pm</EndTime>
+		</Session>
+	</Event>
+	<Event Title="China .COM CIO Summit">
+		<Date>2000/9/28</Date>
+		<Location>Ragne Hotel</Location>
+		<City>Shanghai</City>
+		<Session Title="BizTalk Overview">
+			<StartTime>10:00 am</StartTime>
+			<EndTime>11:00 am</EndTime>
+		</Session>
+		<Session Title="Application Center Overview">
+			<StartTime>11:00 am</StartTime>
+			<EndTime>12:00 am</EndTime>
+		</Session>
+	</Event>
+	<Event Title="Siemens VIP Visit">
+		<Date>2000/9/12</Date>
+		<Location>25 Floor, AREC</Location>
+		<City>Shanghai</City>
+		<Session Title="Microsoft .NET">
+			<StartTime>11:20 am</StartTime>
+			<EndTime>12:00 am</EndTime>
+		</Session>
+	</Event>
+	<Event Title="Microsoft GTEC Media Briefing">
+		<Date>2001/11/30</Date>
+		<Location>19 Floor, Metro Tower</Location>
+		<City>Shanghai</City>
+		<Session Title="Growing with GTEC">
+			<StartTime>10:20 am</StartTime>
+			<EndTime>10:30 am</EndTime>
+		</Session>
+	</Event>
+	<Event Title="Microsoft Development Management Advanced Training">
+		<Date EndDate="2001/12/7">2001/12/3</Date>
+		<Location>Hunan Province Muniple Government</Location>
+		<City>Changsha</City>
+		<Session Title="Development Process and Tools">
+			<Date>2001/12/3</Date>
+			<StartTime>1:30 pm</StartTime>
+			<EndTime>4:00 pm</EndTime>
+		</Session>
+		<Session Title="Usability in product developement">
+			<Date>2001/12/3</Date>
+			<StartTime>4:00 pm</StartTime>
+			<EndTime>5:30 pm</EndTime>
+		</Session>
+	</Event>
+
+	<Event Title="PMT Software Professional Forum">
+		<Date EndDate="2002/1/20">2002/1/20</Date>
+		<Location>PMT Office, Hu Nan Road</Location>
+		<City>Shanghai</City>
+		<Session Title="Microsoft Development Process">
+			<Date>2002/1/20</Date>
+			<StartTime>1:30 pm</StartTime>
+			<EndTime>4:00 pm</EndTime>
+		</Session>
+	</Event>
+
+	<Event Title="Microsoft Development Management Advanced Training">
+		<Date EndDate="2002/2/3">2002/1/30</Date>
+		<Location>Hilton Nanjing</Location>
+		<City>Nanjing</City>
+		<Session Title="Development Process and Tools">
+			<Date>2002/1/31</Date>
+			<StartTime>1:30 pm</StartTime>
+			<EndTime>5:30 pm</EndTime>
+		</Session>
+		<Session Title="Usability in Microsoft">
+			<Date>2002/2/1</Date>
+			<StartTime>1:30 pm</StartTime>
+			<EndTime>3:00 pm</EndTime>
+		</Session>
+	</Event>
+</MySchedule>
+

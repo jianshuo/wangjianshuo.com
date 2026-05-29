@@ -1,0 +1,7 @@
+body       { padding:0; font-family: Verdana; font-size:10pt;margin:0 }
+p, li, ul, div, td, tr, table       { font-family: Verdana; font-size:10pt;}
+h6           { font-size: 8pt;font-weight:100 }
+
+.OutOfDateNews { display:none; }
+.LeftNav {display:none;}
+.cssDoNotPrint {display:none;}

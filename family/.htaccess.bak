@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Family Only"
+AuthUserFile "/home/users/web/b2841/ipw.wangjian/.htpasswds/family/passwd"
+require valid-user

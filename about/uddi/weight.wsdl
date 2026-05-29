@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s0="http://www.wangjianshuo.com/" targetNamespace="http://www.wangjianshuo.com/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://www.wangjianshuo.com/">
+      <s:element name="GetJianShuoWeight">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetJianShuoWeightResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetJianShuoWeightResult" nillable="true" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </types>
+  <message name="GetJianShuoWeightSoapIn">
+    <part name="parameters" element="s0:GetJianShuoWeight" />
+  </message>
+  <message name="GetJianShuoWeightSoapOut">
+    <part name="parameters" element="s0:GetJianShuoWeightResponse" />
+  </message>
+  <message name="GetJianShuoWeightHttpGetIn" />
+  <message name="GetJianShuoWeightHttpGetOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="GetJianShuoWeightHttpPostIn" />
+  <message name="GetJianShuoWeightHttpPostOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <portType name="WeightServiceSoap">
+    <operation name="GetJianShuoWeight">
+      <input message="s0:GetJianShuoWeightSoapIn" />
+      <output message="s0:GetJianShuoWeightSoapOut" />
+    </operation>
+  </portType>
+  <portType name="WeightServiceHttpGet">
+    <operation name="GetJianShuoWeight">
+      <input message="s0:GetJianShuoWeightHttpGetIn" />
+      <output message="s0:GetJianShuoWeightHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="WeightServiceHttpPost">
+    <operation name="GetJianShuoWeight">
+      <input message="s0:GetJianShuoWeightHttpPostIn" />
+      <output message="s0:GetJianShuoWeightHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="WeightServiceSoap" type="s0:WeightServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="GetJianShuoWeight">
+      <soap:operation soapAction="http://www.wangjianshuo.com/GetJianShuoWeight" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="WeightServiceHttpGet" type="s0:WeightServiceHttpGet">
+    <http:binding verb="GET" />
+    <operation name="GetJianShuoWeight">
+      <http:operation location="/GetJianShuoWeight" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="WeightServiceHttpPost" type="s0:WeightServiceHttpPost">
+    <http:binding verb="POST" />
+    <operation name="GetJianShuoWeight">
+      <http:operation location="/GetJianShuoWeight" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="WeightService">
+    <port name="WeightServiceSoap" binding="s0:WeightServiceSoap">
+      <soap:address location="http://www.wangjianshuo.com/cgi-bin/weight.pl" />
+    </port>
+    <port name="WeightServiceHttpGet" binding="s0:WeightServiceHttpGet">
+      <http:address location="http://www.wangjianshuo.com/cgi-bin/weight.pl" />
+    </port>
+    <port name="WeightServiceHttpPost" binding="s0:WeightServiceHttpPost">
+      <http:address location="http://www.wangjianshuo.com/cgi-bin/weight.pl" />
+    </port>
+  </service>
+</definitions>

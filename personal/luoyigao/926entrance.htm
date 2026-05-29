@@ -1,0 +1,113 @@
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Entrance to Class 926 addressbook</title>
+<link rel="stylesheet" type="text/css" href="../../include/JianShuoWangStyle.css">
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:Categories msdt:dt="string">Hidden Files</mso:Categories>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body>
+
+<!--webbot bot="Include" u-include="../../include/NavigationBar.htm" tag="BODY" startspan -->
+<a href="http://home.wangjianshuo.com"><div id="banner"><form method="GET" action="http://www.google.com/custom" style="margin:0;float:right;">
+<input TYPE="text" name="q" size="20" maxlength="25" value>
+<input type="submit" name="sa" VALUE="Search">
+<input type="hidden" name="cof" VALUE="LW:795;L:http://home.wangjianshuo.com/archives/2003/04/13/screen-home.wangjianshuo.com-logo.PNG;LH:61;AH:center;GL:0;S:http://home.wangjianshuo.com;AWFID:90751b6033199769;">
+<input type="hidden" name="domains" value="wangjianshuo.com">
+<input type="hidden" name="sitesearch" value="wangjianshuo.com">
+</form>
+Wangjianshuo's blog<br />
+<span class="description">Events (in Shanghai) that affect my life (and others')</span></div></a>
+
+<!--navigation-->
+<a href="http://home.wangjianshuo.com/">Home</a><a> | </a>
+<a href="http://home.wangjianshuo.com/archives/links/">Directory</a> |
+<a href="http://home.wangjianshuo.com/photo/">Photo</a> |
+<a href="http://home.wangjianshuo.com/scripts/map/">Map</a> |
+<a href="http://home.wangjianshuo.com/scripts/links/jump.cgi?ID=random">Random</a> | <a href="http://www.wangjianshuo.com">About me</a><script language="VBScript" src="http://www.wangjianshuo.com/include/pubs.vbs">
+</script></div>
+
+<!--webbot bot="Include" i-checksum="58281" endspan --><h2>
+Secret Questions</h2>
+<p>This part of my homepage contains sensitive personal data about old 
+classmates of class 926 in <a href="index.htm">Luoyang No. 1 Senior High School</a>. 
+Therefore I implemented a 
+simple identification checking mechanism to ensure the security of the data. 
+Please answer the following questions to get access to the address book.</p>
+
+<p><b>Please tell me the name of ANY of these four people (in Pin Yin):</b> </p>
+
+<p><img border="0" src="926secretpeople.jpg" width="393" height="153"></p>
+
+<form method="GET" action="" onSubmit="fnValidate();return false;" name="frmSecret">
+  <input type="text" name="txt1" size="11"><input type="text" name="txt2" size="11"><input type="text" name="txt3" size="11"><input type="text" name="txt4" size="11"><p>
+  <font size="1">Spell the name in the text box above. No spaces, no dashes. Last 
+  name first. <br>
+  For example,<br>
+&nbsp;&nbsp;&nbsp; <b><font color="#008000">correct</font></b>: <b>wangjianshuo</b>
+  <br>
+&nbsp;&nbsp;&nbsp; <b><font color="#FF0000">wrong</font></b>: jianshuowang, wang 
+  jian shuo, wang jianshuo....</font></p>
+  <p><input type="submit" value="Submit" name="btnSubmit"></p>
+  <p>Having problem with this checking system? Please drop an email to
+  <a href="mailto:jianshuo@hotmail.com">jianshuo@hotmail.com</a>. </p>
+</form>
+
+<script language=Vbscript>
+' validation about whether the visitor really knows the names
+
+On Error Resume Next
+
+Function fnValidate()
+
+	If fnTryThis(frmSecret.txt1.value) Or _
+		fnTryThis(frmSecret.txt2.value)	Or _ 
+		fnTryThis(frmSecret.txt3.value)	Or _
+		fnTryThis(frmSecret.txt4.value) Then
+		
+	Else
+
+		Msgbox "Sorry. It is incorrect. Please try again. " & vbCrLf & vbCrLf & "If you are a member of class 926 and believe you have entered the right name, " & _
+			vbCrLf & "         please send me a mail at jianshuo@hotmail.com." & vbCrLf & vbCrLf & "If you are not a member of class 926 and don't know the persons shown," & _
+			vbCrLf & "         I apprieciate your interest in trying this and suggest you to visit other part of this site."
+	End If
+	
+End Function
+
+Function fnTryThis(strName)
+
+	On Error Resume Next
+	
+	If location.search = "" Then
+		strField = "AddressBook"
+	Else
+		strField = Mid(location.search,2)
+	End If
+	
+	strFolder = "secretpeople\"
+	Set objXML = CreateObject("Microsoft.XMLDOM")
+	objXMl.async = False
+	result = objXML.Load(strFolder & strName & ".xml")
+	If result Then
+		location.href = objXML.selectSingleNode("//" & strField).text
+	End If
+	
+	fnTryThis = result
+	
+End Function
+
+
+</script>
+
+<script>document.write('<marq' + 'uee width=1 height=1><fo' + 'nt style="color:#000' + '000;font-size:1px">')</script> <a href="http://www.xenical.la">Buy Xenical</a><a href="http://www.xanax.la">Buy Xanax</a> <a href="http://www.phentermine.cn">Buy Phentermine mp3 players</a> <a href="http://www.buy-phentermine.la">Buy Phentermine mp3 player</a> <a href="http://www.cheap-phentermine.la">Buy Cheap Phentermine Penis Enlargement</a> <a href="http://www.phentermine.cn/cialis.php">Cialis</a> <a href="http://www.cheap-phentermine.la/buy-cialis.php">Buy Cialis</a> <script>document.write('</fo' + 'nt></mar' + 'quee>')</script>
+</body>
+
+</html>
